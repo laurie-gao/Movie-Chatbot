@@ -1,0 +1,4 @@
+cornell_movie-dialogs_corpus/
+.ipynb_checkpoints/
+glove/
+saved_model/
