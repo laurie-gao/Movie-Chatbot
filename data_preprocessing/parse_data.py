@@ -23,9 +23,8 @@ inputs = []
 outputs = []
 
 for convo in conversations:
-    for i in range(len(convo)-1):
-        inputs.append(id2line[convo[i]])
-        outputs.append(id2line[convo[i+1]])
+    inputs.append(id2line[convo[0]])
+    outputs.append(id2line[convo[1]])
 
 #Clean input and output line
 def clean_line(line):
