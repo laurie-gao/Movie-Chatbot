@@ -32,9 +32,9 @@ Post-attention lstm that returns probability of each word at every timestep base
 
 ## Results
 
-After training for 50 epochs (~9 hours)
+In total, the model was trained for 50 epochs (~9 hours)
 
-![accuracy](https://github.com/laurie-gao/Movie-Chatbot/blob/master/graphs/50_epochs_acc.png)
-![loss](https://github.com/laurie-gao/Movie-Chatbot/blob/master/graphs/50_epochs_loss.png)
+![accuracy](https://github.com/laurie-gao/Movie-Chatbot/blob/master/graphs/acc.png)
+![loss](https://github.com/laurie-gao/Movie-Chatbot/blob/master/graphs/loss.png)
 
 Not enough training examples resulted in the model overfitting to the test set. The low validation accuracy can be attributed to the fact that there is no "correct" response to a sentence. The focus is to output responses that make sense gramatically and logically.
