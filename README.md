@@ -28,7 +28,7 @@ Pre-attention bi-directional lstm that returns an output at every timestep to be
 At every timestamp, computes the weights (amount of attention that should be paid to every encoder output) and uses the weights to compute a context vector that is fed into the decoder.
 
 #### Decoder
-Post-attention lstm that returns probability of each word at every timestep based on the context vector f.rom attention and the word outputed by the previous decoder unit.
+Post-attention lstm that returns probability of each word at every timestep based on the context vector from attention and the word outputed by the previous decoder unit.
 
 ## Results
 
