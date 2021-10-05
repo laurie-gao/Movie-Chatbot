@@ -13,7 +13,7 @@ The training data is obtained from the [cornell movie dialogs corpus](https://ww
 3. Map unique word tokens to unique indices
 4. Add padding to ensure all sequences are of same length
 
-## Model architechture
+## Model architecture
 
 The code for the entire model can be found in Model.py. The main building blocks of the model are listed below:
 
